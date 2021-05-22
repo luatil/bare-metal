@@ -1,7 +1,7 @@
 global _start
 
 _start:
-    mov ebp, 4          ; Move 4 to the ebp registerj
+    mov ebp, 4          ; Move 4 to the ebp register
     mov eax, ebp        ; Move the contents of ebp to the eax register
     dec eax             ; Decrement eax by 1
     call fact           
